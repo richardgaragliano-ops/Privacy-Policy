@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarCaine - Precision Meets Passion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #121212 0%, #1a1a1a 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: rgba(18, 18, 18, 0.95);
+            border-bottom: 2px solid #00FFC2;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #00FFC2;
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00FFC2;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #00FFC2;
+            text-shadow: 0 0 20px rgba(0, 255, 194, 0.3);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: #b0b0b0;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #00FFC2;
+            color: #121212;
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #00FFC2;
+        }
+
+        .cta-button:hover {
+            background: transparent;
+            color: #00FFC2;
+            box-shadow: 0 0 20px rgba(0, 255, 194, 0.5);
+        }
+
+        .content-section {
+            background: rgba(30, 30, 30, 0.8);
+            border: 1px solid #00FFC2;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .content-section h2 {
+            color: #00FFC2;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .content-section p {
+            color: #b0b0b0;
+            margin-bottom: 1rem;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .link-card {
+            background: rgba(0, 255, 194, 0.1);
+            border: 1px solid #00FFC2;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .link-card:hover {
+            background: rgba(0, 255, 194, 0.2);
+            box-shadow: 0 0 20px rgba(0, 255, 194, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .link-card a {
+            color: #00FFC2;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background: rgba(18, 18, 18, 0.95);
+            border-top: 2px solid #00FFC2;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 4rem;
+            color: #808080;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .social-links {
+            margin: 1rem 0;
+        }
+
+        .social-links a {
+            color: #00FFC2;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            text-shadow: 0 0 10px rgba(0, 255, 194, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="/" class="logo">🏎️ CarCaine</a>
+            <ul>
+                <li><a href="/privacy.html">Privacy Policy</a></li>
+                <li><a href="/terms.html">Terms of Service</a></li>
+                <li><a href="/community-guidelines.html">Community Guidelines</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>CarCaine</h1>
+            <p>Precision Meets Passion</p>
+            <p style="font-size: 1rem; color: #808080; margin-bottom: 2rem;">
+                The ultimate social platform for car enthusiasts
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.carcaine.app" class="cta-button">Download on Google Play</a>
+        </section>
+
+        <section class="content-section">
+            <h2>Welcome to CarCaine</h2>
+            <p>
+                CarCaine is the ultimate social platform for car enthusiasts. Whether you're a JDM tuner, classic car collector, DIY mechanic, or event organizer, CarCaine connects you with your people.
+            </p>
+            <p>
+                Share your builds, discover meets, and build community with fellow automotive enthusiasts. Our platform is designed for passion, safety, and respect.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Legal & Support</h2>
+            <div class="links-grid">
+                <div class="link-card">
+                    <h3 style="color: #00FFC2; margin-bottom: 1rem;">Privacy Policy</h3>
+                    <p style="margin-bottom: 1rem;">Learn how we protect your data and privacy</p>
+                    <a href="/privacy.html">Read Privacy Policy →</a>
+                </div>
+                <div class="link-card">
+                    <h3 style="color: #00FFC2; margin-bottom: 1rem;">Terms of Service</h3>
+                    <p style="margin-bottom: 1rem;">Understand our terms and conditions</p>
+                    <a href="/terms.html">Read Terms of Service →</a>
+                </div>
+                <div class="link-card">
+                    <h3 style="color: #00FFC2; margin-bottom: 1rem;">Community Guidelines</h3>
+                    <p style="margin-bottom: 1rem;">Keep our community safe and respectful</p>
+                    <a href="/community-guidelines.html">Read Guidelines →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Contact & Support</h2>
+            <p>
+                Have questions? We're here to help!
+            </p>
+            <p style="margin: 1rem 0;">
+                <strong>Email:</strong> <a href="mailto:support@carcaine.app" style="color: #00FFC2;">support@carcaine.app</a>
+            </p>
+            <p>
+                <strong>Follow Us:</strong>
+                <div class="social-links">
+                    <a href="https://instagram.com/carcaine_app">Instagram</a>
+                    <a href="https://twitter.com/carcaine_app">Twitter</a>
+                    <a href="https://tiktok.com/@carcaine_app">TikTok</a>
+                    <a href="https://discord.gg/carcaine">Discord</a>
+                </div>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 CarCaine Inc. All rights reserved.</p>
+            <p>Precision Meets Passion</p>
+        </div>
+    </footer>
+</body>
+</html>
